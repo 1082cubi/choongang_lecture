@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#show {
+    border: 1px solid black;
+    width: 110px ; height: 30px; line-height:  30px;
+    text-align: center;
+    margin-left: 47%;
+    background: rgb(121, 119, 116);
+
+
+}
+
+#layout {
+    width: 500px ; height: 300px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+#layout #close {
+    width: 100%; height: 50px;
+    background: black; color: white;
+    line-height: 50px ;
+    text-indent: 80%;
+}
+#msg {
+    width: 70%; height: 100px;
+    border: 1px solid green;
+    margin: 50px auto;
+    line-height: 100px; text-align: center;
+}
+#ok {
+    width: 100%; height: 60px; line-height: 70px;
+    border: 1px solid green; 
+    margin: 65px auto;
+    text-align: center;
+    font-size: 2rem;
+    background: green; color: white;
+    text-align: center; line-height: 50px;
+    cursor: pointer;
+
+}
+
+#wrap1 {
+    width: 100%;
+    border: 1px solid red;
+    display: none;
+}
+
+.box {
+    width: 200px; height: 50px;
+    border: 1px solid black;
+    text-align: center; 
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+#kor {
+    border: 1px solid green;
+    background: rgb(243, 197, 205)
+}
+#eng {
+    background: rgb(243, 197, 205)
+}
+#mat {
+    background: rgb(243, 197, 205)
+}
+#wrap2 {
+    width: 100%;
+    display: none;
+}
+.big1 {
+    border: 1px solid rebeccapurple;
+    width: 20%;height: 200px;
+    background: url(../images.jfif);
+    background-size: 100% 100%;
+}
+
+#ruf {
+    border: 1px solid black;
+    width: 600px; height: 500px;
+    margin-left: 35%;
+    background: wheat;
+    display: none;
+
+}
+#ruf div {
+    border: 1px solid red;
+    width: 400px; height: 50px; line-height: 50px;
+    text-align: center;
+    margin-left: 15%;
+}
+
+#ruf div:first-child {
+    font-size: 2rem;
+}
+#ruf div:nth-child(2) {
+    margin-top: 90px;
+}
+#ruf div:nth-child(3) {
+    width: 80px;
+    margin: 480px ;
+    margin-top: 250px;
+}
+#wrap3 {
+    width: 100%;
+    border: 0px solid red;
+    margin-left: 30%;
+}
+#wrap3 img {
+    width: 500px; height: 500px;
+}

@@ -1,0 +1,59 @@
+ .title {
+             width: 80%; height: 70px;
+             border: 0px solid black;
+             margin: 0 auto;
+             font-size: 20px;
+             font-family: hy견고딕;
+             text-align: center;
+             line-height: 0px;   
+
+             
+             
+        }
+        .tab1 {
+            width: 50%;
+            border: 0px solid rgb(38, 0, 255);
+            margin : 0 auto;
+        
+        
+            
+        }
+        .tab1 tr .week{
+            font-size: 20px;
+        }
+        .tab1 tr td {
+            border: 1px solid #e6e3e3;
+            font-size: 30px;
+            text-align: center;
+            cursor: pointer;  
+ 
+        }
+        
+        .tab1 tr td:hover{
+            background: #ccc;
+        }
+        .tab1 tr td:first-child {
+            color: rgb(255, 0, 21);
+        }
+        .tab1 tr td:last-child {
+            color: blue;
+        }
+        .tab1 tr .start {
+            color: green;
+        }
+        .tab1 tr .img {
+            height: 200px;
+        }
+        .tab1 tr .img:hover {
+            background: none;
+        }
+        .tab1 tr .img img {
+            width: 80%;
+            height: 80%;
+        }
+
+
+        .tabe3 tr .soccer{
+            font-size: 20px;
+            border: 10px solid blue 
+        }

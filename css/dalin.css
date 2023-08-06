@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean');
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+*{
+    margin: 0; padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#back {
+    position: fixed; top: 0; left: 0;
+    z-index: -1;
+    width: 100%; height: 100%;
+    background: url(../img/gimg\ 123.jfif);
+    background-size: 100%  100%; 
+    animation: back_ani 10s;
+}
+@keyframes back_ani {
+    0%{ transform: scale(1.1)}
+    100%{ transform: scale(1)}
+}
+nav {
+    width: 100%; height: 50px;
+    margin-top: -100px ;
+    border: 0px solid white;
+    display: flex;
+    animation: nav_ani 0.5s;
+    animation-delay: 3s;;
+    animation-fill-mode: forwards;
+}
+@keyframes nav_ani{
+    0% {margin-top: -100px;}
+    100% {margin-top: 20px;}
+}
+nav div {
+    width: 7%; height: 100%;
+    color: white;
+    line-height: 50px;
+    border: 0px solid ;
+    text-align: center;
+    cursor: pointer;
+    ;
+    
+}
+nav div:hover {
+    font-family: hy견고딕;
+    color: disqu;
+}
+nav div:first-child{
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 5;
+    font-family: hy견고딕;
+    font-size: 1.3rem;
+
+}
+nav div:nth-child(10){
+    margin-right: 5%;
+}
+nav .icon {
+    width: 3%;
+}
+#layout {
+    border: 0px solid red;
+    height: 1000px;
+    opacity: 0;
+    animation: layont_ani 1s;
+    animation-delay:4s;
+    animation-fill-mode:forwards;
+}
+@keyframes layont_ani {
+    0% { opacity:0; margin-top: 100px;}
+    100% {opacity: 1; margin-top: 100px; }
+}
+.arrow {
+    position: fixed; top: 50%; left: 3%;
+    width: 94%; height: 65px;
+    border: 0px solid white;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7%;
+}
+.arrow .left{
+    animation: left_ani 1s linear infinite;
+}
+@keyframes left_ani {
+    0% { margin-left: 0;}
+    25% {margin-left: -5px;}
+    50% {margin-left: 10px;}
+    75% {margin-left: -5px;}
+    100%{margin-left: 0;}
+}
+.arrow p {
+    color: white;
+    font-size: 3rem;
+    cursor: crosshair;
+}
+
+
+.arrow p:hover { 
+    color: aquamarine;
+}
+.uuu{
+    border: 0px solid red;
+    width: 85%; height: 400px;
+    margin-top: 300px; margin-left: 4%;
+    position: fixed;
+    top: 1px; left: 3%;
+    display: flex;
+    
+
+}
+
+.uuu li {
+    border: 0px solid blue;
+    width: 100%; height: 85%;
+    color: white
+}
+.uuu .hot .sub {
+    text-shadow: -15px 15px 1px black,
+                  -35px 25px 10px #333
+}
+.uuu .hot .sub:hover {
+    color: aqua;
+    cursor: pointer;
+}
+.uuu .hot p {
+    border: 0px solid green;
+    width: 100%; height: 28%;
+}
+.uuu .tour p {
+    border: 0px solid black;
+    width: 100%; height: 27%;
+    
+}
+.uuu .hot p:first-child {
+    font-size: 6rem; line-height: 100px;
+    font-weight: bold;
+    font-family: 'PyeongChangPeace-Bold';
+    color: white;
+    margin-top: 50px;
+
+}
+.uuu .hot p:nth-child(2) {
+    height: 50px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.uuu .hot p:nth-child(3) {
+     height: 50px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.uuu .hot:nth-child(2){
+    width: 800px;
+}
+.down {
+    position: absolute; top: 50%;left: 7%;
+    width: 50px; height: 50px;
+    border: 0px solid white;
+    border-radius: 100%; color: white;
+    text-align: center; line-height: 50px;
+    font-size: 2.5rem; cursor: pointer;
+    animation: down_ani 1s linear infinite;
+}
+@keyframes down_ani {
+    0%{top:70%;}
+    25%{top:71%;}
+    50%{top:72%;}
+    75%{top:71%;}
+    100%{top:70%;}
+}

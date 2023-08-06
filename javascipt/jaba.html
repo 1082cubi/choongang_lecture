@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/dal1.css/jaba.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <p id="show" onclick=" show_s();">알림창 보기</p>
+    <div id="layout">
+        <p id="close" onclick="close_func();">닫기</p>
+
+        <div id="msg">
+            가입완료를 클릭하세요
+        </div>
+        <div id="ok" onclick="ok();">
+            가입완료
+        </div>
+    </div>
+
+    <div id="wrap1">
+        국어 <input type="text" id="kor"> <br>
+        영어 <input type="text" id="eng"> <br>
+        수학 <input type="text" id="mat"> <br>
+        <input type="button" value="결과 보기" id="ok_btn">
+        <div id="total">0</div>
+        <div id="average">0</div>
+    </div>
+    <!-- ---------------- -->
+    <div id="wrap2">
+        <div class="big1">
+
+        </div>
+
+        <div class="big">
+            수량 : <input type="number" id="su">
+            가격 : 500원
+        </div>
+        <input type="button" value="주문" id="ju">
+        <input type="button" value="취소" id="cancle">
+
+        <div id="ruf">
+            <div>결제금액은</div>
+            <div>0원입니다</div>
+            <div>확인</div>
+        </div>
+    </div>
+    <!-- -- --------------- -->
+    <div id="wrap3">
+        <div class="big" style="width: 100px;">
+            <img src="../img/Big1 (4).jpg" alt="" id="pic">
+        </div>
+        <div class="result" style="font-size: 3rem;">0</div>
+        <input type="button" value="증가하기" class="add">
+        <input type="button" value="감소하기" class="sub">
+
+    </div>
+</body>
+
+</html>

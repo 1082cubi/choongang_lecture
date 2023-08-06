@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+div {
+    
+    width: 200px; height: 200px;
+    border: 1px solid;
+
+}
+#vid {
+    position: fixed; top: 0; left: 0;
+    width: 100%; height: 100%;
+}
+#vid video {
+    width: 100%;
+    min-width: 1200px;
+}
+#vid .skip {
+    position: absolute;
+    top: 80%; left: 50%;
+    width: 150px; height: 50px;
+    border: 1px solid white;
+    color: white; font-size: 2rem;
+    text-align: center; line-height: 50px;
+    transform: translateX(-50%);
+
+}
+
+.menu {
+    width: 100%; height: 50px;
+    border: 0px solid ;
+    display: flex;
+    justify-content: space-between;
+}
+.menu li {
+    width: 5%;height: 100%;
+    border: 0px solid green;
+    line-height:  50px;
+    text-align: center;
+    cursor: pointer;
+}
+.menu li:hover {
+    color: red;
+}
+.menu li:first-child {
+    width: 15%;
+    font-size: 1.5rem;
+}
+
+.title {
+    border: 0px solid;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.sud {
+    border: 0px solid;
+    background: #162e70;
+    width: 100%; height: 85px;
+    display: flex;
+    justify-content:center;
+    line-height : 70px;
+    font-size: 1rem;
+    margin-top: 5%;
+    
+
+}
+.sud p {
+    border: 1px solid red;
+    width: 10%; height: 100%; line-height: 85px;
+    color: white;
+    text-align: center;
+
+}
+.sud p:hover {
+    color: yellow;
+}
+.tadTitle {
+    width: 75%; height: 50px;
+    border: 0px solid ;
+    margin: 0 auto; justify-content: space-between;
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 50px;
+    margin-top: 200px;
+}
+.tadTitle p:first-child{
+    border: 0px solid red;
+    margin-left: 0;
+}
+.tadTitle p:last-child { 
+    font-size: 15px;
+}
+p {
+    border: 0px solid;
+    font-size: 1.5rem;
+    margin-left: 7%;
+    font-weight: bold
+}
+.table {
+    border: 0px solid;
+    width: 75%;height: 100px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.table tr th {
+    font-size: 1.7;
+    height: 70px;
+    border-top: 1px solid #ccc;
+    font-weight: bold;
+    background-color:#bab5b9;
+
+}
+.table tr td {
+    border-top:  0.1px solid;
+    width: 20%;height: 50px;
+    cursor: pointer;
+    
+}
+.table tr td:first-child {
+    width: 10%;
+
+}
+table tr td:nth-child(2) {
+    width: 20%;
+}
+table tr td:nth-child(3) {
+    width: 60%;
+    text-align: left; text-indent: 30px;
+}
+table tr td:nth-child(4) {
+    width: 10%;
+}
+/* --------------------전차 테스트와 그림 이번엔 할수 있다 화이팅 */
+
+
+.text {
+    border: 0px solid;
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
+    
+} 
+.text li:first-child {
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.text li:last-child {
+    font-weight: bold;
+    font-size: 3rem;
+    
+    
+}
+.big {
+   border: 0px solid;
+    width: 60%; height: 800px;
+    margin-left: 20.5%;
+}
+.big img{
+    width: 100%; height: 100%;
+}
+.uu {
+    border: 0px solid;
+    width: 100%; height: 100px;
+    display: flex;
+    color: #63646b;
+    font-size : 1.5rem
+}
+.uu li:first-child {
+    border: 0px solid;
+    width: 10%; height: 150px; line-height: 150px;
+    text-align: center;
+    margin-left: 30%;
+    
+    
+}
+.uu li:nth-child(2) {
+    border: 0px solid;
+    width: 10%; height: 150px;line-height: 150px;
+    text-align: center;
+    
+}
+.uu li:nth-child(3){
+    border: 0px solid;
+    width: 10%; height: 150px;line-height: 150px;
+    text-align: center
+}
+.uu li:last-child {
+    border: 0px solid;
+    width: 10%; height: 150px;line-height: 150px;
+    text-align: center
+}
+.hh {
+    border: 0px solid;
+    width: 100%; height: 100px;
+    display: flex;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 1.7rem;
+    color: #2d437e;
+    font-weight: bold;
+}
+.hh li:first-child{
+border: 0px solid;
+width: 10%;height: 50px;
+}
+.hh li:nth-child(2) {
+    border: 0px solid;
+width: 10%;height: 50px;
+}
+.hh li:nth-child(3) {
+    border: 0px solid;
+width: 10%;height: 50px;
+}
+.hh li:nth-child(4) {
+    border: 0px solid;
+width: 10%;height: 50px;
+}
+.hh li:nth-child(5) {
+    border: 0px solid;
+width: 10%;height: 50px;
+}

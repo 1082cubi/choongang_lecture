@@ -1,0 +1,80 @@
+*{
+    margin: 0; padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/*
+#menu {
+    width: 100%;height: 50px;
+    display: flex;
+}
+#menu div { 
+    width: 150px; height: 100%; line-height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+
+}
+#menu div:first-child {
+    margin-left: 20%;
+}
+.imgs {
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    margin: 50px auto;
+}
+.imgs div {
+    width: 18%;height: 200px;
+    border: 1px solid black;
+}
+.big {
+    width: 80%; height: 500px;
+    border: 1px solid red;
+    margin-left: 10%;
+}
+.big img {
+    width: 100%; height: 100%;
+}*/
+
+/* nav {
+    border: 1px solid black;
+    width: 100%; height: 50px;
+    background: white;
+    display: flex;
+}
+nav div {
+    width: 100px;height: 100%;
+    text-align: center; line-height: 50px;
+    margin-left: 30px; border: 1px solid black;
+    cursor: pointer;
+}
+
+.box {
+    width: 100% ; height: 200px;
+    border: 1px solid black;
+    display: flex; align-items: center;
+
+
+}
+.box div {
+    width: 150px; height: 150px;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+.box div img {
+    width: 100%; height: 100%;
+}*/
+
+.box {
+    width: 80%; 
+    border: 1px solid black;
+
+}
+.box li {
+    width: 80%; height: 50px;
+    border: 1px solid green;
+    margin: 10px auto;
+}
+input {
+    width: 200px; height: 100%;
+}

@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.top {
+    border: 0px solid black;
+    width: 1200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 0 auto;
+    color: white;
+    background-color: #4d4d4d;
+    font-weight: bold;
+
+}
+
+.title {
+    border: 0px solid red;
+    width: 1200px;
+    height: 70px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.title li {
+    border: 0px solid red;
+    width: 5%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.title li:first-child {
+    width: 20%;
+    height: 100%;
+    line-height: 100px;
+    margin-right: 47%;
+    font-size: 2.5rem;
+    font-family: hy견고딕;
+
+}
+
+.title li:nth-child(4),
+.title li:nth-child(5),
+.title li:nth-child(6) {
+    width: 8%;
+}
+
+.title li:last-child {
+    border: 1px solid black;
+    width: 8%;
+}
+
+.title li p {
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.title li:hover p {
+    transform: rotate(180deg);
+}
+
+nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1200px;
+    height: 50px;
+    border: 0px solid blue;
+    margin: 0 auto;
+    display: flex;
+    z-index: 10;
+
+}
+
+nav div {
+    width: 7%;
+    height: 50px;
+    border: 0px solid green;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+    transition: all 0.5s;
+    cursor: pointer;
+
+
+}
+
+nav div:nth-child(5):hover {
+    height: 240px;
+}
+
+nav div:nth-child(6):hover {
+    height: 130px;
+}
+
+nav div p {
+    border: 0px solid red;
+    width: 100%;
+    height: 50px;
+}
+
+nav div:hover p {
+    background: gold;
+    color: white;
+}
+
+nav div ul {
+    border: 1px solid white;
+    height: 35px;
+    line-height: 35px;
+    border-top: none;
+
+}
+
+nav div ul li {
+    border: 1px solid white;
+    height: 35px;
+    line-height: 35px;
+    background: white;
+}
+
+nav div ul li:hover {
+    background: skyblue;
+}
+
+nav div ul li:first-child {
+    border-top: none;
+}
+
+nav .icon {
+    width: 9%;
+
+}
+
+nav div:nth-child(4),
+nav div:nth-child(6),
+nav div:nth-child(7) {
+    width: 10%;
+}
+
+nav div:nth-child(10) {
+    margin-right: 5%;
+}
+
+section {
+    width: 1200px;
+    height: 1000px;
+    border: 1px solid green;
+    margin: 0 auto;
+}
+
+section article {
+    width: 100%;
+    height: 100%;
+}
+
+/* -------------------아티클시작 */
+
+/* -------------------아티클0시작 */
+.at0 {
+    position: relative;
+    top: 0;
+    left: 0;
+    background: black;
+    color: white;
+}
+
+.at0 .at0title {
+    position: absolute;
+    top: 50px;
+    left: -100%;
+    animation: title_ani 1s;
+    animation-fill-mode: forwards;
+
+
+    width: 500px;
+    height: 100px;
+    border: 1px solid white;
+    line-height: 100px;
+    font-size: 3rem;
+    color: white;
+
+}
+
+@keyframes title_ani {
+    0% {
+        left: -100%;
+    }
+
+    10% {
+        left: -80%;
+    }
+
+    20% {
+        left: -70%;
+    }
+
+    40% {
+        left: -50%;
+    }
+
+    50% {
+        left: -20;
+    }
+
+    60% {
+        left: 0;
+    }
+
+    70% {
+        left: 10px;
+    }
+
+    80% {
+        left: 50px;
+    }
+
+    100% {
+        left: 100px;
+    }
+
+}
+
+/* -------------------아티클끝 */
+.Big {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+    width: 200px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.Big .img5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%px;
+    height: 100%;
+    border: 1px solid rebeccapurple;
+    display: flex;
+    animation: img5_ani 15s linear infinite;
+
+}
+
+@keyframes img5_ani {
+    0% {
+        left: 0;
+    }
+
+    10% {
+        left: -100%;
+    }
+
+    20% {
+        left: -100%;
+    }
+
+    30% {
+        left: -100%;
+    }
+
+    40% {
+        left: -200%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    60% {
+        left: -300%;
+    }
+
+    70% {
+        left: -300%;
+    }
+
+    80% {
+        left: -400%;
+    }
+
+    90% {
+        left: -500%;
+    }
+
+    100% {
+        left: -500%;
+    }
+
+
+}
+
+.Big .img5 li {
+    width: 200px;
+    height: 100%;
+    border: 1px solid red;
+    overflow: hidden;
+
+}
+
+.Big .img5 li div img {
+    width: 100%;
+    height: 350px;
+
+}
+
+.Big .img5 li p {
+    width: 100%;
+    height: 500px;
+
+}
+
+
+
+.at1 .at1Big {
+    width: 100%;
+}
+
+.at1 .at1Big img {
+    width: 100%;
+}
+
+/* -------------------------아티클끝 */
+.at1 .news {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    margin: 50px auto;
+    overflow: hidden;
+
+}
+
+.at1 .news .text {
+    border: 0px solid red;
+    width: 100%;
+    height: 100%;
+    animation: news_top 10s linear infinite;
+    transition: all 0.5s;
+}
+
+@keyframes news_top {
+    0% {
+        margin-top: 0px
+    }
+
+    19% {
+        margin-top: 0px
+    }
+
+    20% {
+        margin-top: -50px
+    }
+
+    39% {
+        margin-top: -100px
+    }
+
+    100% {
+        margin-top: -150px
+    }
+}
+
+.at1 .news .text li {
+    border: 1px solid green;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.at1 .news .text li:hover {
+    top: 240px;
+}
+
+.pi {
+    border: 1px solid red;
+    width: 400px;
+    height: 400px;
+
+}
+
+.pi ul {
+    width: 1600px;
+    height: 400px;
+    display: flex;
+    animation: img_left 20s linear infinite;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.pi ul li {
+    border: 1px solid blue;
+    width: 100%;
+    height: 100%;
+
+}
+
+.pi ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* .at3 .pr li:first-child {
+    width: 100%; height: 100%; line-height: 500px;
+}
+.at3 .pr li:nth-child(2) {
+    width: 100%; height: 100%; line-height: 500px;
+}
+.at3 .pr li:nth-child(3){
+    width: 100%; height: 100%; line-height: 500px;
+}
+.at3 .pr li:nth-child(4){
+    width: 100%; height: 100%; line-height: 500px;
+} */
+
+/* ------------------------ */
+
+
+.busan {
+    border: 0px solid blue;
+    width: 200px; height: 200px;
+    margin-top: 300px;
+    animation: star_d 7s linear infinite;
+}
+@keyframes star_d {
+    0% {margin-left: 0px; margin-top: 300px;}
+    20% {margin-left: 600px; margin-top: 300px;}
+    25% {margin-left: 600px; margin-top: 300px;}
+    45% {margin-left: 150px; margin-top: 700px;}
+    50% {margin-left: 150px; margin-top: 700px;}
+    60% {margin-left: 300px; margin-top: 100px;}
+    65% {margin-left: 300px; margin-top: 100px;}
+    80% {margin-left: 450px; margin-top: 700px;}
+    85% {margin-left: 450px; margin-top: 700px;}
+    95% {margin-left: 0px; margin-top: 300px;}
+    100% {margin-left: 0px; margin-top: 300px;}
+}
+/* @keyframes star_d {
+    0%{margin-left: 0;margin-top: 0;}
+    10%{margin-left: 300px;margin-top: 0;}
+    
+    20%{margin-left: 600px;margin-top: 0;}
+    30%{margin-left: 900px;margin-top: 0;}
+    35%{margin-left: 900px;margin-top: 0;}
+    45%{margin-left: 450px;margin-top: 450px;}
+    50%{margin-left: 450px;margin-top: 450px;}
+    60%{margin-left: 0px;margin-top: 225px;}
+    65%{margin-left: 0px;margin-top: 225px;}
+    75%{margin-left: 225px;margin-top: 0px;}
+    80%{margin-left: 225px;margin-top: 0px;}
+    90%{margin-left: 600px;margin-top: 450px;}
+    100%{margin-left: 0;margin-top: 0;}
+    0%{margin-left: 0;margin-top: 0;}
+    0%{margin-left: 0;margin-top: 0;}
+    0%{margin-left: 0;margin-top: 0;}
+    0%{margin-left: 0;margin-top: 0;}
+} */
+.busan .bus {
+    border: 0px solid red;
+    width: 200px; height: 200px;
+}
+.busan .bus li {
+    border: 0px solid green;
+    width: 200px; height: 200px;
+   margin-top: 50%;
+}
+.busan .bus li img {
+    width: 200px; height: 200px;
+}
+
+
+
+
+.suv {
+    border: 0px solid red;
+    width: 1000px; height: 750px;
+    margin-left: 10%;
+    
+    overflow: hidden;
+    
+}
+    
+
+@keyframes soccer_g {
+    0%{margin-left: -10px;}
+    10%{margin-left: -10px;}
+    20%{margin-left: -1000px;}
+    30%{margin-left: -1000px;}
+    40%{margin-left: -2000px;}
+    50%{margin-left: -2000px;}
+    60%{margin-left: -3000px;}
+    70%{margin-left: -3000px;}
+   
+    100%{margin-left: -10px;}
+}
+.suv .nx {
+    border: 0px solid blue;
+    width: 400%; height: 100%;
+    display: flex;
+    animation: soccer_g 10s linear infinite;
+   
+    
+}
+.suv .nx li {
+    border: 0px solid green;
+    width: 100%; height: 100%;
+    
+}
+.suv .nx li img {
+    width: 100%; height: 100%;
+}

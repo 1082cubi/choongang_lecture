@@ -1,0 +1,331 @@
+* {margin: 0;
+list-style: none;
+padding: 0;
+text-decoration: none;
+
+}
+header{
+ background: black;
+ color: white;
+ width: 100%; height: 150px;
+ font-size: 3rem;
+ line-height: 150px;
+ text-indent: 5%
+}
+
+header small { 
+    color: aquamarine;
+}
+nav {
+    width: 100%; height: 50px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+
+}
+nav div {
+    width: 5%; height: 100%; line-height: 50px;
+    border: 0px solid blue;
+    text-align: center;
+    font-size: 1.2rem;
+    cursor:pointer;
+    
+}
+section {
+    position: relative;
+    top: 0; left: 0;
+    width: 100%; height: 1600px;
+    border: 0px solid green;
+} 
+section article {
+    position: absolute;
+    top: 0;left: 5%;
+    width: 90%; height: 100%;
+    border: 1px solid red;
+    font-size: 1.3rem;
+    background:  white; 
+    display: none;
+    
+}
+.at1 .wlong {
+    width: 100%; height: 200px;
+    border: 0px solid black;
+    margin: 50px auto; 
+    display: flex;
+    justify-content: space-between;
+}
+.at1 .wlong p {
+   
+    width: 49.5%; height: 100%;   
+    border: 1px solid teal;
+}
+.at1 .wlong p img {
+    width: 100%; height: 100%;
+}
+.at1 .wlong p:first-child {
+    
+}
+.at1 .wlong p:last-child {
+    
+}
+.at1 .title {
+    border: 0px solid teal;
+    width: 400px; height: 50px; line-height: 50px;
+    text-align: center;
+    background-color: #ff9995;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-left: 30px;
+    font-size: 1.1rem;
+}
+.ppp {
+    border: 0px solid red;
+    width: 410px; height: 70px; line-height: 70px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.uuu {
+    border: 0px solid blue;
+    width: 100%; height: 580px;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+
+
+}
+.uuu li {
+    border: 0px solid orange;
+    width: 18%; height: 100%;
+    margin-left: 10px;
+    position: relative;
+    top: 0; left: 0;
+}
+.uuu li div {
+    border: 1px solid  black;
+    width: 100%; height: 40%;
+    
+}
+.uuu li div:first-child {
+    height: 60%;
+
+}
+.uuu li div:first-child img {
+    width: 100%; height: 100%;
+}
+.uuu li div:last-child .son {
+    border: 1px solid black;
+    width: 100%;
+}
+.uuu li div:last-child .son:first-child {
+    font-size: 12px;
+    margin-top: 20px;
+   
+}
+.uuu li div:last-child .son:nth-child(2) {
+    font-size: 14px;
+}
+.uuu li div:last-child .son:nth-child(3) {
+    font-size: 17px;
+    color: #939393;
+    margin-top: 10px;
+}
+.uuu li div:last-child .son:nth-child(4) {
+    font-weight: bold;
+}
+.uuu li div:last-child .son:nth-child(4) span {
+    color: #ff9995;
+}
+.uuu li div:last-child div {
+    border: 0px solid greenyellow;
+    display: flex;
+}
+.uuu li div:last-child div p {
+    border: 0px solid red;
+    height: 80px; line-height: 80px;
+    text-align: center;
+    font-size: 12px;
+
+}
+.uuu li div:last-child div p img {
+    width: 67%; height: 66%;
+   
+}
+.uuu li div:last-child div p:nth-child(3), p:nth-child(4) {
+
+}
+.uuu li .pur {
+    top: 75%; left: 65%;
+    position: absolute;
+    width: 35%; height: 5%;
+    
+
+}
+.uuu li .pur img {
+    width: 100%; height: 100%;
+}
+
+
+/* 아티클2 시작 */
+
+
+.at2 .at2Open {
+    width: 60%; height: 700px;
+    border: 0px solid black;
+    margin: 50px auto;
+    background: url(../img/at2ig.2.jpg);
+    background-size: 100% 100%; 
+}
+/* 아티클2 끝 */
+
+/* 아티클3 시작 */
+.at3 .at3Open {
+    width: 60%; height: 700px;
+    border: 0px solid black;
+    margin: 50px auto;
+    background: url(../img/at2ig.3.jpg);
+    background-size: 100% 100%; 
+}
+.at3 .at3Box{
+    width: 50%; height: 500px;
+    margin: 100px auto;
+    border: 0px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.at3 .at3Box div {
+    width: 40%; height: 300px;
+    border: 0px solid red;
+}
+.at3 .at3Box .textimg
+ {
+    text-align: center;
+    line-height: 300px;
+    font-size: 10rem;
+ }
+ .at3 .at3Box div div {
+    width: 100%; height: 150px;
+    font-size: 2rem;
+    text-indent: 30px;
+    line-height: 150px;
+    font-weight: bold;
+}
+.at3 .at3Box div div:last-child {
+    font-size: 1.1rem;
+}
+.at3 .at3Box div div:last-child span {
+    font-size: 2rem;
+}
+
+/* at3 끝 */
+
+.at4 .cp {
+    border: 1px solid black;
+    width: 100%; height: 210px; line-height: 195px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    background-color: #7c7c7c;
+    color: white
+}
+
+
+.at4 .cu {
+    border: 0px solid red;
+    width: 65%; height: 330px;
+    margin-top: 4%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.at4 .cu li:first-child {
+    border: 0px solid blue;
+    width: 48%; height: 100%;
+    overflow: hidden;
+}
+.at4 .cu li:first-child img {
+    transition: 1s;
+    width: 100%; height: 100%;
+}
+.at4 .cu li:first-child:hover img {
+    transform: scale(1.1);
+}
+
+.at4 .cu li:last-child {
+    border: 0px solid blue;
+    width: 48%; height: 100%;
+}
+
+.at4 .cu li:last-child p {
+    border:  0px solid green;
+    width: 100%;
+
+}
+.at4 .cu li:last-child p:first-child {
+    font-size: 0.7rem;
+    margin-top: 3px;
+}
+.at4 .cu li:last-child p:nth-child(2) {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.at4 .cu li:last-child p:nth-child(2):hover {
+    text-decoration: underline;
+}
+.at4 .cu li:last-child p:nth-child(3) {
+    font-size: 0.9rem;
+    margin-top: 40px;
+    color: #8e8e8e;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%; height: 120px; 
+    background: black;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+   
+}
+footer div {
+    border: 1px solid white;
+    width: 5%; height: 50px;
+    line-height: 50px;
+    text-align: center;
+    
+
+}
+footer div:first-child {
+    width: 15%;
+}
+
+
+
+
+
+
+
+
+
+.at4 {
+    display: block;
+}

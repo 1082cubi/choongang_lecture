@@ -1,0 +1,91 @@
+ul {
+    border: 0px solid black;
+    width: 100%; height: 2000px;
+    
+}
+ul li:first-child {
+    border: 0px solid black;
+    width: 100%; height: 30%;
+    background: url(../esg/img1\ \(2\).png);
+    background-size: 100% 100%;
+}
+ul li:nth-child(2) {
+    border: 0px solid blue;
+    width: 100%; height: 20%;
+    background-color: #e2ddd7;
+}
+ul li:nth-child(3) {
+    border: 0px solid black;
+    width: 100%; height: 20%;
+    
+
+}
+ul li:nth-child(4) {
+    border: 0px solid rebeccapurple;
+    width: 100%; height: 45%;
+}
+
+
+ul li:nth-child(2) p {
+    border: 0px solid red;
+    width: 100%; height: 80px; line-height: 120px;
+    margin-left: 95px;
+    font-size: 1.5rem;
+    color: #c1ad96;
+    background-color: #e2ddd7;
+    font-weight: bold;
+    
+}
+
+ul li div {
+    border: 0px solid green;
+    width: 100%; height: 70%;
+    display: flex;
+    
+
+}
+ul li div div {
+    border: 0px solid red;
+    width: 100%; height: 100%;
+}
+ul li div div:first-child {
+    width: 70%;
+    padding-left: 90px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+ul li div div:last-child br {
+ font-weight: bold;
+ 
+}
+.ppp p{
+    border: 0px solid red;
+    width: 100%; height: 20%;
+    font-weight: 800;
+    
+}
+.ppp p:first-child {
+    line-height: 150px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.ppp p:nth-child(2){
+    line-height: 100px;
+    height: 20%;
+}
+.ppp p:nth-child(3) {
+    height: 15%;
+}
+.ppp p:nth-child(4) {
+    height: 10%;
+}
+.ppp p:nth-child(5){
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+
+.ooo {
+    background: url(../esg/img1\ \(1\).png);
+    background-size: 100% 100%;
+}
