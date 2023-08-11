@@ -1,0 +1,9 @@
+section {
+    width: 80%; height: 500px;
+    margin: 50px auto;
+    border: 1px solid rebeccapurple;
+}
+input {
+    width: 150px; height: 50px;
+    cursor: pointer; font-size: 1.5rem;
+}

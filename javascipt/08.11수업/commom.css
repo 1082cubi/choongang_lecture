@@ -1,0 +1,66 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    list-style: none; 
+    text-decoration: none;    
+}
+body {
+    background: black;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+.layout {
+   
+    display: none;
+}
+.layout0 {
+    position: absolute; top: -200% ; left:0;
+    width: 100%; height: 100%;
+    background: rgb(25, 25, 73);
+    display: none;
+}
+.layout1 {
+    color: white;
+}
+/* 공통된 타이틀 .)title)지정 */
+.title {
+    color: white; 
+    width: 90%; height: 100px;
+    margin:  70px auto;
+    border: 1px solid rgb(107, 102, 102);
+    border-radius: 20px;
+    text-align: center; line-height: 100px;
+    font-family: hy 견고딕; font-size: 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.title:hover {
+    background: white; color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.layout0 {
+    display: block;
+}
